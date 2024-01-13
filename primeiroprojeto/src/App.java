@@ -1,22 +1,16 @@
-class Perfil {
+public class App{
     public static void main(String[] args) {
-      System.out.println("Olá, Cauê");
-      System.out.println("Tudo bem?");
-    }
-  }
+        System.out.println("Esse é o Screen Match");
+        System.out.println("Filme: Top Gun: Maverick");
 
-class Soma{
+        int ano = 2022;
+        System.out.println("Ano de lançamento: " + ano);
 
-    public static void main(String[] args) {
-        System.out.println("Essa é a soma de 10 + 5");
-        System.out.println(10 + 5);
-    }
-}
+        //media
+        double media = (9.8 + 6.3 + 8.0) / 3;
+        System.out.println(String.format("A nota média é: %.2f", media));
 
-class Subtração{
-
-    public static void main(String[] args) {
-        System.out.println("Essa é a subtração de 10 + 5");
-        System.out.println(10 - 5);
+        String sinopse = "Filme de aventura";
+        System.out.println(sinopse);
     }
 }

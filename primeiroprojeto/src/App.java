@@ -12,5 +12,8 @@ public class App{
 
         String sinopse = "Filme de aventura";
         System.out.println(sinopse);
+
+        int classificacao = (int) (media / 2);
+        System.out.println(classificacao);
     }
 }
